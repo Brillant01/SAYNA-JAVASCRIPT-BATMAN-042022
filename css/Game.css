@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* la premiere partie */
+.header{
+    background-image: url(/Assets/Illustrations/Game/Batgame1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    padding-bottom: 10%;
+}
+
+.barre{
+    padding: 3% 10%;
+}
+
+.header  ul{
+    list-style-type: none;
+}
+
+.header ul.menu {
+    justify-content: right;
+}
+
+.header ul a{
+    color: white;
+    text-decoration: none;
+}
+
+.header h1{
+    padding: 10% ;
+}
+
+.socialréseau{
+    text-align: center;
+    padding: 20% 0 0;
+}
+
+.socialréseau  img{
+    padding: 5%;
+}
+
+/* 2eme partie css , page Game, la partie de quiz   */
+#section2{
+    background-color: black;
+    color: white;
+}
+
+.quiz{
+    padding-left: 15%;
+}
+
+#section2 .question{
+    display: block;
+}
+
+#section2 .reponse{
+    background-color: grey;
+    width: 50%;
+    padding: 0 2px;
+    margin: 11px 12px;
+}
+
+.Batgame2 {
+    justify-content: center;
+}
+/* le Quiz NIVEAU 2 */
+.Batgame2 h2 {
+    padding: 10% 15% ;
+}
+
+.Batgame2 img{
+    padding: 0 15% 5% 15%;
+}
+
+button.demarrer {
+    background-color: brown; /*color TO DO*/
+    color: white;
+    padding: 2%;
+    width: 27%;
+    margin: 5%;
+}
+
+/* footer de la page  */
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 5%;
+    justify-content: center;
+}
+
