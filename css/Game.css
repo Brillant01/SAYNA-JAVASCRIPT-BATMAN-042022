@@ -23,6 +23,10 @@ body{
     justify-content: right;
 }
 
+.header ul.menu .home.one{
+    text-align: right;
+}
+
 .header ul a{
     color: white;
     text-decoration: none;
@@ -88,7 +92,32 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
-    padding-bottom: 5%;
+    padding-bottom: 6%;
     justify-content: center;
 }
 
+footer p{
+    padding-bottom: 2%;
+}
+
+footer img{
+    padding: 0 1%;
+}
+
+footer .social img{
+    padding: 2.5% 2%;
+    width: 8%;
+}
+
+/* la partie responsive du code css  */
+
+@media  screen and  (max-width: 735px) {
+    .barre {
+        padding: 0;
+        display: block;
+    }
+    .col.sove {
+        margin: 5% 41%;
+        width: 100%;
+    }
+}

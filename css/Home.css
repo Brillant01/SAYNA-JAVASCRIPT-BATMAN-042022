@@ -1,6 +1,104 @@
 
-
-.header {
+body{
+    margin: 0;
+    padding: 0;
+}
+/* la premiere partie */
+.header{
     background-image: url(/Assets/Illustrations/Home/Bathome1.png);
     background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    padding-bottom: 10%;
 }
+
+.barre{
+    padding: 3% 10%;
+}
+
+.header  ul{
+    list-style-type: none;
+}
+
+.header ul.menu {
+    justify-content: right;
+}
+
+.header ul.menu .home.one{
+    text-align: right;
+}
+
+.header  a{
+    color: white;
+    text-decoration: none;
+}
+
+.header .text{
+    padding: 20%;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.header .text button{
+    background-color: rgba(207, 189, 189, 0.13);
+    border: none;
+    padding: 2%;
+    margin: 2%;
+}
+
+.socialréseau{
+    text-align: center;
+    padding: 20% 0 0;
+}
+
+.socialréseau  img{
+    padding: 5%;
+}
+
+/* la deuxième partie  */
+#section2{
+    background-color: black;
+    color: white;
+    padding: 15%;
+    padding-bottom: 5%;
+}
+
+#section2 p{
+    text-align: justify;
+}
+
+#section2 .legendes{
+    justify-content: space-between;
+    padding: 0%;
+}
+
+#section2 .legendes img{
+    padding: 4%;
+}
+
+/* 4em partie */
+#section4{
+    background-color: black;
+    color: white;
+    padding: 10%;
+}
+
+#section4 p{
+    text-align: justify;
+    padding-bottom: 5%;
+    padding-right: 3.5%;
+}
+
+/* MULTIMEDIA 5em partie */
+
+#section5{
+    background-color: black;
+    color: white;
+}
+
+#section5 h3{
+    padding: 0 0 5% 11% ;
+}
+
+
+
