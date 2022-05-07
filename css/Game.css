@@ -126,4 +126,12 @@ footer .social img{
         margin: 5% 41%;
         width: 100%;
     }
+    ul.row.menu {
+        justify-content: space-around;
+        font-size: 152%;
+    }
+    li.col-4.home.one{
+        position: relative;
+    left: -16%;
+    }
 }
