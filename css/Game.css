@@ -44,6 +44,12 @@ body{
 .socialréseau  img{
     padding: 5%;
 }
+/* section  flèche */
+section.fleche{
+    background-color: black;
+    justify-content: center;
+    padding-bottom: 5%;
+}
 
 /* 2eme partie css , page Game, la partie de quiz   */
 #section2{

@@ -5,11 +5,12 @@ body{
 }
 /* la premiere partie */
 .header{
-    background-image: url(/Assets/Illustrations/Home/Bathome1.png);
+    background-image: url(../Assets/Illustrations/Home/Bathome1.png);
     background-size: 100%;
     background-repeat: no-repeat;
     color: white;
     padding-bottom: 10%;
+    margin: 0;
 }
 
 .barre{
@@ -40,7 +41,7 @@ body{
 }
 
 .header .text button{
-    background-color: rgba(207, 189, 189, 0.13);
+    background: linear-gradient(#EDDEBF,#890009c5);
     border: none;
     padding: 2%;
     margin: 2%;
@@ -54,7 +55,12 @@ body{
 .socialréseau  img{
     padding: 5%;
 }
-
+/* image  flèche */
+section.fleche{
+    background-color: black;
+    justify-content: center;
+    padding-bottom: 5%;
+}
 /* la deuxième partie  */
 #section2{
     background-color: black;
@@ -100,5 +106,143 @@ body{
     padding: 0 0 5% 11% ;
 }
 
+.adefiler{
+    display: flex; 
+    justify-content: space-around;
+}
+
+.adefiler .fleche{
+    padding: 0 15%;
+}
+
+.conteneur{
+    display: flex;
+    width: 100%;
+    padding-bottom: 15%;
+    justify-content: center;
+}
 
 
+.conteneur .image{
+    background-image: url(../Assets/Illustrations/Home/Bathome8.png);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+}
+
+.partietext {
+    background-color: grey; /* TO DO*/
+    border-radius: 0px 16px 16px 0px;
+}
+
+.partietext p{
+    font-size: 60%;
+}
+
+
+/* 6eme partie */
+
+#section6{
+    background-color: black;
+    padding: 0 10% 10%;
+}
+
+/* 7eme partie */
+#section7{
+    background: linear-gradient(#EDDEBF,#19587D); /*TO DO*/
+    color: white;
+    padding: 5% 15%;
+
+}
+
+#section7 h3{
+    text-align: center;
+    padding:  10%;
+    padding-top: 0;
+}
+
+#section7 label{
+    padding: 3% 0;
+}
+
+#section7  .form-control{
+    color: white;
+    padding-left: 1%;
+}
+
+
+ #section7 .aremplir,.form-select.aremplir  {
+    background-color: rgba(0, 128, 0, 0) ;
+    border-radius: 0;
+    padding: 0;
+    border-top: 0 ;
+    border-left: 0;
+    border-right: 0;
+}
+
+#section7 input.text {
+    margin: 5% 0;
+}
+
+.boutton {
+    width: 66%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.boutton button{
+    padding: 1%  0;
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+}
+
+button.confirme{
+    background: linear-gradient(#EDDEBF,#890009c5); /*TO DO*/
+    padding: 2% 0;
+    border: none;
+    color: white;
+    
+}
+
+.divboutton{
+   text-align: center;
+}
+
+
+/* 8eme partie  */
+
+#section8{
+    background-color: black;
+    padding:10%;
+    color: white;
+}
+
+.image2{
+text-align: right;
+}
+
+#section8 .text{
+    padding: ;
+    text-align: center;
+}
+
+/* footer de la page  */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-bottom: 6%;
+    justify-content: center;
+}
+
+footer p{
+    padding-bottom: 2%;
+}
+
+footer img{
+    padding: 0 1%;
+}
+
+footer .social img{
+    padding: 2.5% 2%;
+    width: 8%;
+}
