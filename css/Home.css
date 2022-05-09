@@ -1,8 +1,27 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
 body{
     margin: 0;
     padding: 0;
 }
+
+h1 {
+    font-family: Rajdhani, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+a, h2 {
+    font-family: Rajdhani, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p{
+    font-family: Space Grotesk, sans-serif;
+}
+
+
 /* la premiere partie */
 .header{
     background-image: url(../Assets/Illustrations/Home/Bathome1.png);
@@ -32,6 +51,11 @@ body{
 .header  a{
     color: white;
     text-decoration: none;
+}
+
+
+.header ul a:hover{
+    text-decoration: underline;
 }
 
 .header .text{
@@ -118,7 +142,7 @@ section.fleche{
 .conteneur{
     display: flex;
     width: 100%;
-    padding-bottom: 15%;
+    padding-bottom:0;
     justify-content: center;
 }
 
@@ -143,7 +167,7 @@ section.fleche{
 
 #section6{
     background-color: black;
-    padding: 0 10% 10%;
+    padding: 10%;
 }
 
 /* 7eme partie */
@@ -245,4 +269,89 @@ footer img{
 footer .social img{
     padding: 2.5% 2%;
     width: 8%;
+}
+
+/* responsive */
+
+@media  screen and  (max-width: 735px) {
+    /* sur la partie 1 */
+    .header{
+        padding: 0;
+        background-repeat: repeat;
+
+    }
+    .barre{
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+    div.sove{
+        padding-top: 3%;
+        text-align: center;
+    }
+    #menuhead.menu{
+        margin: 0;
+        padding: 0;
+        justify-content: space-between;
+        position: relative;
+        top: -6px;
+        
+    }
+
+    .header ul.menu .home {
+        text-align: center;
+    }
+    .row.conteneur{
+        display: block;
+        padding: 0;
+         margin: 0;
+        height: 388px;
+    }
+
+    div.button{
+        display:inline-grid;
+    }
+
+    div.button button{
+        width: 100%;
+    }
+
+    .row.conteneur .text{
+        padding: 0;
+    }
+
+    .row.conteneur .text p{
+        padding:5%;
+    }
+
+    .socialréseau{
+        padding: 0;
+        margin: 0;
+       
+    }
+    .socialréseau ul{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        padding-top: 15%;
+        position: relative;
+        left: 205%;
+        width:200%;
+        justify-content: space-between;
+
+    }
+
+    .socialréseau ul li {
+        width: 8000px;
+    } 
+    
+
+    .socialréseau ul li img{
+        width: 100%;
+        padding: 5px;
+    }
+
+    section.row.fleche{
+        display: none;
+    }
 }
